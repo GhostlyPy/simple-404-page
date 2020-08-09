@@ -1,0 +1,19 @@
+body {
+	background: url('../img/background.png');
+	background-position: center;
+	background-size: auto;
+	text-align: center;
+	font-size: 8rem;
+}
+
+h1 {
+	text-shadow: 6px 6px 2px red;
+}
+
+h1:hover {
+	color: red;
+	transition-timing-function: ease-in-out;
+	transition-duration: 1.2s;
+	text-shadow: 6px 6px 2px black;
+	cursor: default;
+}
